@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  margin: 1rem auto 0;
+  background: hsl(216, 50%, 16%);
+  border-radius: 1rem;
+}
+
+main img.equi-logo {
+  width: 85%;
+  margin: 1.8rem auto;
+  border-radius: 1rem;
+}
+
+main img.equi-logo:hover {
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+main h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+}
+
+main span {
+  color: hsl(215, 51%, 70%);
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  width: 80%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+section.info {
+  width: 100%;
+  margin-top: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.info .equi {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+}
+
+section.info .equi img {
+  padding-right: 0.4rem;
+}
+
+section.info .days-left {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+section.info .days-left img {
+  padding-right: 0.4rem;
+}
+
+section.creation {
+  width: 80%;
+  height: 100%;
+  border-top: 0.1rem solid hsl(215, 51%, 70%);
+  margin: 1rem auto 0.8rem;
+  padding-top: 0.4rem;
+  display: flex;
+  align-items: center;
+  color: hsl(0, 1%, 73%);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+section.creation p {
+  color: hsl(0, 0%, 100%);
+}
+
+section.creation p:hover,
+main h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+section.creation img {
+  width: 10%;
+  padding: 0.5rem;
+}
